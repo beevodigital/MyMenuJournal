@@ -8,7 +8,7 @@
   window.fbAsyncInit = function() {
     FB.init({
         appId: '320311591413980', // App ID
-      status     : true, // check login status
+      status     : false, // check login status
       cookie     : true, // enable cookies to allow the server to access the session
       xfbml      : true  // parse XFBML
     });
@@ -29,7 +29,7 @@
             // This is a form post since we don't want to use AJAX
             var form = document.createElement("form");
             form.setAttribute("method", 'post');
-            form.setAttribute("action", '/FacebookLogin.ashx');
+            form.setAttribute("action", '/user/FacebookLogin');
 
             var field = document.createElement("input");
             field.setAttribute("type", "hidden");
