@@ -6,7 +6,7 @@ using System.Data.Entity;
 using System.Web.Security;
 
 
-    public class DataContextInitializer:DropCreateDatabaseAlways<DataContext>
+public class DataContextInitializer : CreateDatabaseIfNotExists<DataContext>
     {
         protected override void Seed(DataContext context)
         {

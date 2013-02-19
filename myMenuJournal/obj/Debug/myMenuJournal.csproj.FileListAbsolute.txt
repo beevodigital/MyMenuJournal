@@ -30,3 +30,6 @@ c:\projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.dll
 c:\projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.pdb
 c:\projects\myMenuJournal\myMenuJournal\bin\Facebook.dll
 c:\projects\myMenuJournal\myMenuJournal\bin\Facebook.xml
+C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.FacebookToken.resources
+C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.csproj.GenerateResource.Cache
+C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.MoreUserChanges.resources
