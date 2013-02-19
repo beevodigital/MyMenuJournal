@@ -6,6 +6,16 @@
 @{
     var ThisUser = (User)ViewBag.ThisUser;
     var ThisUserProperties = (myMenuJournal.Entities.UserProperties)ViewBag.ThisUserProperties;
+
+    var ThisDay = (myMenuJournal.Entities.UserDay)ViewBag.CheckDay;
 }
 
 <h5>Welcome Back @ThisUserProperties.FirstName</h5>
+<h5><a href="/user/logout">(logout)</a></h5>
+
+@{
+    if(ThisDay == null)
+    {
+        @:Looks Like you need to log today!
+    }
+}

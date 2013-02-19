@@ -25,6 +25,21 @@ namespace myMenuJournal.Controllers
 
             ViewBag.ThisUser = ThisUser;
             ViewBag.ThisUserProperties = _db.UserProperties.Where(x => x.User.UserId.Equals(ThisUser.UserId)).FirstOrDefault();
+
+            //get todays log
+            var CurrentDOY = DateTime.Now.DayOfYear;
+            var CheckDay = _db.UserDays.Where(x => x.UserID.Equals(ThisUser.UserId)).Where(x => x.DOYIntake.Equals(CurrentDOY)).FirstOrDefault();
+
+            ViewBag.CheckDay = CheckDay;
+            return View();
+        }
+
+        public ActionResult Logout()
+        {
+            Session["ThisUser"] = null;
+            Session["ThisUserProperties"] = null;
+            Session.Clear();
+
             return View();
         }
 

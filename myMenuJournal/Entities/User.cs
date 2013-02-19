@@ -9,6 +9,8 @@ using System.ComponentModel.DataAnnotations;
         [Key]
         public virtual Guid UserId { get; set; }
 
+        public virtual ICollection<myMenuJournal.Entities.UserDay> Days { get; set; }   
+
         [Required]
         public virtual String Username { get; set; }
 

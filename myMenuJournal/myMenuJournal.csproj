@@ -131,6 +131,7 @@
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserDay.cs" />
     <Compile Include="Entities\UserProperties.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -150,6 +151,14 @@
     <Compile Include="Migrations\201302190132167_FirstLastName.cs" />
     <Compile Include="Migrations\201302190132167_FirstLastName.Designer.cs">
       <DependentUpon>201302190132167_FirstLastName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302190217530_AddedDays.cs" />
+    <Compile Include="Migrations\201302190217530_AddedDays.Designer.cs">
+      <DependentUpon>201302190217530_AddedDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302190222467_DYOFYEAR.cs" />
+    <Compile Include="Migrations\201302190222467_DYOFYEAR.Designer.cs">
+      <DependentUpon>201302190222467_DYOFYEAR.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -190,9 +199,18 @@
     <EmbeddedResource Include="Migrations\201302190132167_FirstLastName.resx">
       <DependentUpon>201302190132167_FirstLastName.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302190217530_AddedDays.resx">
+      <DependentUpon>201302190217530_AddedDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302190222467_DYOFYEAR.resx">
+      <DependentUpon>201302190222467_DYOFYEAR.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\User\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\Logout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

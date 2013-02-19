@@ -34,3 +34,5 @@ C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.Faceb
 C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.csproj.GenerateResource.Cache
 C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.MoreUserChanges.resources
 C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.FirstLastName.resources
+C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.AddedDays.resources
+C:\Projects\myMenuJournal\myMenuJournal\obj\Debug\myMenuJournal.Migrations.DYOFYEAR.resources
