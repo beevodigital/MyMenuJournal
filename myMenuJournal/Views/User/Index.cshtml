@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    var ThisUser = (User)ViewBag.ThisUser;
+    var ThisUserProperties = (myMenuJournal.Entities.UserProperties)ViewBag.ThisUserProperties;
+}
+
+<h5>Welcome Back @ThisUserProperties.FirstName</h5>

@@ -147,6 +147,10 @@
     <Compile Include="Migrations\201302190007280_MoreUserChanges.Designer.cs">
       <DependentUpon>201302190007280_MoreUserChanges.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201302190132167_FirstLastName.cs" />
+    <Compile Include="Migrations\201302190132167_FirstLastName.Designer.cs">
+      <DependentUpon>201302190132167_FirstLastName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -183,6 +187,12 @@
     <EmbeddedResource Include="Migrations\201302190007280_MoreUserChanges.resx">
       <DependentUpon>201302190007280_MoreUserChanges.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302190132167_FirstLastName.resx">
+      <DependentUpon>201302190132167_FirstLastName.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

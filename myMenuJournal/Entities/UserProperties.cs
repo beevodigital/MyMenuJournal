@@ -14,5 +14,7 @@ namespace myMenuJournal.Entities
         public virtual User User { get; set; }
 
         public virtual string FacebookToken { get; set; }
+        public virtual string FirstName { get; set; }
+        public virtual string LastName { get; set; }
     }
 }
